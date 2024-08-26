@@ -1,0 +1,12 @@
+.Ribbon2 {
+    position: absolute;
+    background: #0a1ecd;
+    box-shadow: 0 0 0 999px #0a1ecd;
+    clip-path: inset(0 -100%);
+}
+
+.right {
+    inset: 0 0 auto auto;
+    transform-origin: 0 0;
+    transform: translate(29.3%) rotate(45deg);
+  }

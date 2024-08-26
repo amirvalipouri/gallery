@@ -1,0 +1,44 @@
+.Landing {
+  position: relative;
+  
+  > header {
+    
+    @media (min-width: 992px) {
+      position: relative;
+      z-index: 5;
+      width: 100%;
+
+    }
+    .user-control {
+      @media (min-width : 992px) {
+        > a.btn {
+          width: 125px;
+        }
+      }
+      
+    }
+  }
+  
+  > main {
+    height: auto;
+    width: 100%;
+
+
+  }
+  > footer {
+    
+    height: auto;
+
+    @media (min-width: 992px) {
+      position: relative;
+      border-radius: 44px 44px 0px 0px;
+    }
+    a {
+      color: var(--bs-light);
+      &:hover {
+        color: var(--bs-primary);
+      }
+    }
+  }
+  
+ }
